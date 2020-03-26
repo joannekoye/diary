@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Entry } from './entry'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Diary';
+  entries: Entry[] = [
+    new Entry('Flowers', 'I got flowers today', new Date(2020,3,14))
+  ]
 }

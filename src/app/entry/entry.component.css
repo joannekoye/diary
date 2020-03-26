@@ -1,0 +1,11 @@
+.click {
+  cursor: pointer;
+  
+}
+.click:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+.unclick {
+  cursor: pointer;
+}
